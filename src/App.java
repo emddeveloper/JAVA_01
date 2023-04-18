@@ -1,16 +1,13 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        //System.out.print("* \n** \n*** \n****");
-        //Variables
-        String name ="Sk Aminul";
-        int a = 25;
-        int b = 10;
-        int age = 30;
-        double price = 25.50;
+        //premitive data type
+        int a = 10;
+        int b = 20;
+        int sum = a + b;
+        System.out.println(sum);
+        int diff = b - a;
+        System.out.println(diff);
 
-        // We can change the value of variables
-        b = 30;
-        System.out.println(b); // Will print 30
 
     }
 }
