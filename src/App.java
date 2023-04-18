@@ -1,13 +1,11 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        //premitive data type
-        int a = 10;
-        int b = 20;
-        int sum = a + b;
-        System.out.println(sum);
-        int diff = b - a;
-        System.out.println(diff);
-
-
+        //input
+        Scanner sc = new Scanner(System.in);
+        //String name = sc.next(); will print one token SK AMINUL --> SK
+        String name = sc.nextLine(); // will take a whole line SK AMINUL -->SK AMINU
+        System.out.println(name);
     }
 }
