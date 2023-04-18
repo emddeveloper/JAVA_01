@@ -22,14 +22,17 @@ public class App {
 //             System.out.println("ODD NUMBER");
 //         }
 
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        if(a==b){
-            System.out.println("equal");
-        } else if (a>b) {
-            System.out.println("a is greater than b");
-        } else {
-            System.out.println("a is lesser than b");
+//
+        int button = sc.nextInt();
+        switch (button){
+            case 1:
+                System.out.println("Hello");
+                break;
+            case 2:
+                System.out.println("Namaste");
+                break;
+            default:
+                System.out.println("Sorry");
         }
     }
 }
