@@ -11,5 +11,6 @@ public class App {
         // We can change the value of variables
         b = 30;
         System.out.println(b); // Will print 30
+
     }
 }
